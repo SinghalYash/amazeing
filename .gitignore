@@ -1,0 +1,48 @@
+# === ROS 2 build and install files ===
+build/
+install/
+log/
+
+# === CMake files ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Python cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Colcon metadata ===
+.colcon/
+.colcon_install_layout
+
+# === VSCode settings (if using) ===
+.vscode/
+
+# === IDE/project settings ===
+*.swp
+*.swo
+.idea/
+*.code-workspace
+
+# === ROS 2 launch logs ===
+*.launch.py~
+*.launch.xml~
+*.test.py~
+
+# === Misc ===
+*.DS_Store
+*.log
+*.bak
+
+# === Secrets / configs ===
+*.env
+*.yaml.local
+config/local_*
+
+# === Ignore local development rosdep sources ===
+rosdep/sources.list.d/
+
